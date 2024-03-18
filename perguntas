@@ -1,0 +1,41 @@
+06 - Quais as diferenças entre os tipos por valor e os tipos por referência:
+
+Tipos de valor: São armazenados na stack, cada variavel tem sua própria copia
+de dados. Não podem ser nulos, a menos que seja usado o nullable. São mais
+eficientes por conta do seu tipo de armazenamento. INT, FLOAT, DOUBLE E STRUCT sao 
+tipos por valor. 
+
+Tipos por referência: São armazenados no heap (memoria reservada para armazenar objetos
+durante a execução de um programa) e tem um endereço de memoria
+que aponta para o local onde os dados estão armazenados. Podem ser nulos. Podem ter um desempenho levemente 
+inferior. STRING, ARRAYS e CLASSES são tipos por referência.
+
+07 - O que é um nullable type e qual a sua utilidade:
+
+É um tipo que pode ser atribuido a variaveis, permitindo que 
+a variavel possa armazenar um valor do tipo expecificado por exemplo "double" 
+ou um valor nulo.
+
+08 - O que é Camel Case? Dê um exemplo de sua aplicação:
+
+É uma nomenclatura dada para palavras que são unidas sem espaços e cada palavra começa com
+uma letra maiscula, exceto a primeira palavra. Por exemplo "nomeDoSeuCachorro".
+
+09 - O que é Pascal Case ? Dê um exemplo de sua aplicação:
+
+Ao contratio da Camel case onde a primeira palavra começa com a letra minuscula,
+na Pascal case todas as palavras começam com letras maiusculas. Por exemplo "NomeDoSeuGato".
+
+Quais os valores padrões dos tipos de dados bool, char, int, double, float, decimal e string:
+
+bool: false;
+char: \0;
+int: 0;
+double: 0.0;
+float: 0.0f;
+decimal: 0.0;
+string: null;
+
+
+
+
